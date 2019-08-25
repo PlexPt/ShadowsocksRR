@@ -74,7 +74,7 @@ dependencies {
     implementation "com.mikepenz:fastadapter:2.1.5"
     implementation "com.mikepenz:iconics-core:2.8.2"
     implementation "com.mikepenz:materialdrawer:5.8.1"
-    implementation "com.mikepenz:materialize:1.0.0"
+    implementation "com.mikepenz:materialize:1.2.1"
     implementation "com.twofortyfouram:android-plugin-api-for-locale:1.0.4"
     implementation "dnsjava:dnsjava:2.1.9"
     implementation "eu.chainfire:libsuperuser:latest.release"
