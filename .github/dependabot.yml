@@ -1,0 +1,28 @@
+version: 2
+updates:
+- package-ecosystem: gradle
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.mikepenz:fastadapter
+    versions:
+    - 5.3.2
+    - 5.3.5
+    - 5.4.0
+  - dependency-name: com.android.tools.build:gradle
+    versions:
+    - 4.1.2
+  - dependency-name: com.mikepenz:iconics-core
+    versions:
+    - 5.2.4
+  - dependency-name: com.mikepenz:materialdrawer
+    versions:
+    - 8.3.1
+  - dependency-name: com.squareup.okhttp3:okhttp
+    versions:
+    - 4.9.0
+  - dependency-name: androidx.recyclerview:recyclerview
+    versions:
+    - 1.1.0
